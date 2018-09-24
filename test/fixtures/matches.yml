@@ -2,8 +2,8 @@
 
 one:
   name: MyString
-  user_id: 1
+  winner: 1
 
 two:
   name: MyString
-  user_id: 1
+  winner: 1

@@ -15,7 +15,7 @@ class MatchesTest < ApplicationSystemTestCase
     click_on "New Match"
 
     fill_in "Name", with: @match.name
-    fill_in "User", with: @match.user_id
+    fill_in "Winner", with: @match.winner
     click_on "Create Match"
 
     assert_text "Match was successfully created"
@@ -27,7 +27,7 @@ class MatchesTest < ApplicationSystemTestCase
     click_on "Edit", match: :first
 
     fill_in "Name", with: @match.name
-    fill_in "User", with: @match.user_id
+    fill_in "Winner", with: @match.winner
     click_on "Update Match"
 
     assert_text "Match was successfully updated"
