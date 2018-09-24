@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  match_id: 1
+  winner: 1
+  locked: false
+
+two:
+  match_id: 1
+  winner: 1
+  locked: false
