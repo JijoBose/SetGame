@@ -1,5 +1,6 @@
 class CardsController < ApplicationController
   before_action :set_card, only: [:show, :edit, :update, :destroy]
+  before_action :check_admin, only: [:index, :show, :edit, :update, :destroy]
 
   # GET /cards
   # GET /cards.json
@@ -63,6 +64,10 @@ class CardsController < ApplicationController
 
   private
     # Use callbacks to share common setup or constraints between actions.
+    def check_admin
+      redirect_to edit_user_registration_path unless current_user.admin?
+    end
+
     def set_card
       @card = Card.find(params[:id])
     end

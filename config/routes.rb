@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'home_pages/index'
+  get 'home_pages/about'
+  get 'home_pages/terms'
+  get 'home_pages/privacy'
   resources :player_cards
   resources :rounds
   resources :match_players
