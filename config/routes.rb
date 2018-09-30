@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root 'home_pages#index'
   get 'home_pages/index'
   get 'home_pages/about'
   get 'home_pages/terms'

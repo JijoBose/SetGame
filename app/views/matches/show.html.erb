@@ -12,3 +12,9 @@
 
 <%= link_to 'Edit', edit_match_path(@match) %> |
 <%= link_to 'Back', matches_path %>
+
+<%= simple_form_for @match_player do |f| %>
+  <%= f.input :user_id %>
+  <%#= f.input :password %>
+  <%= f.button :submit %>
+<% end %>
