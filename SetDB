@@ -1,0 +1,19 @@
+User:
+ - admin, username[optional]
+
+Cards: 
+ - name, color
+
+Match:
+ - name, final_winner
+
+MatchPlayers:
+ - player_id, match_id
+
+Rounds:
+ -match_id, winner:user_id, locked:boolean
+
+PlayerCards: [4 random cards per player]
+ - id, user_id, card_id, round_id
+
+ [update on exchange]
