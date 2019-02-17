@@ -14,7 +14,11 @@ gem 'sass-rails', '~> 5.0'
 gem 'bootstrap', '~> 4.0'
 gem 'jquery-rails'
 gem 'simple_form'
+
+#authentication
 gem 'devise'
+# authorization
+gem 'cancancan', '~> 2.3'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
