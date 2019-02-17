@@ -14,6 +14,7 @@ gem 'sass-rails', '~> 5.0'
 gem 'bootstrap', '~> 4.0'
 gem 'jquery-rails'
 gem 'simple_form'
+gem 'jquery-minicolors-rails'
 
 #authentication
 gem 'devise'

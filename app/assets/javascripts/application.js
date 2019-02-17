@@ -12,6 +12,8 @@
 //
 //= require rails-ujs
 //= require jquery3
+//= require jquery.minicolors
+//= require jquery.minicolors.simple_form
 //= require popper
 //= require bootstrap
 //= require activestorage
